@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C04AB2B425C8CFE000721D6E /* CommandList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04AB2B325C8CFE000721D6E /* CommandList.swift */; };
+		C04AB2B525C8CFE000721D6E /* CommandList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04AB2B325C8CFE000721D6E /* CommandList.swift */; };
+		C0671E3B25D0821800E04841 /* ViewStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0671E3A25D0821800E04841 /* ViewStructs.swift */; };
+		C0671E3C25D0821800E04841 /* ViewStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0671E3A25D0821800E04841 /* ViewStructs.swift */; };
+		C0671E4E25D1C69C00E04841 /* Sword in Frameworks */ = {isa = PBXBuildFile; productRef = C0671E4D25D1C69C00E04841 /* Sword */; };
+		C0671E5225D1C6A400E04841 /* Sword in Frameworks */ = {isa = PBXBuildFile; productRef = C0671E5125D1C6A400E04841 /* Sword */; };
+		C09FEF1D25BF31C100E22466 /* SwordPortableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FEF0A25BF31C000E22466 /* SwordPortableApp.swift */; };
+		C09FEF1E25BF31C100E22466 /* SwordPortableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FEF0A25BF31C000E22466 /* SwordPortableApp.swift */; };
+		C09FEF1F25BF31C100E22466 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FEF0B25BF31C000E22466 /* ContentView.swift */; };
+		C09FEF2025BF31C100E22466 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FEF0B25BF31C000E22466 /* ContentView.swift */; };
+		C09FEF2125BF31C100E22466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09FEF0C25BF31C100E22466 /* Assets.xcassets */; };
+		C09FEF2225BF31C100E22466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09FEF0C25BF31C100E22466 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C04AB2B325C8CFE000721D6E /* CommandList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandList.swift; sourceTree = "<group>"; };
+		C0671E3A25D0821800E04841 /* ViewStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStructs.swift; sourceTree = "<group>"; };
+		C09FEF0A25BF31C000E22466 /* SwordPortableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwordPortableApp.swift; sourceTree = "<group>"; };
+		C09FEF0B25BF31C000E22466 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C09FEF0C25BF31C100E22466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C09FEF1125BF31C100E22466 /* SwordPortable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwordPortable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09FEF1425BF31C100E22466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09FEF1925BF31C100E22466 /* SwordPortable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwordPortable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09FEF1B25BF31C100E22466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09FEF1C25BF31C100E22466 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C09FEF2D25BF31FB00E22466 /* SwordPortable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwordPortable.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C09FEF0E25BF31C100E22466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0671E4E25D1C69C00E04841 /* Sword in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09FEF1625BF31C100E22466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0671E5225D1C6A400E04841 /* Sword in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0671E3025D06F3C00E04841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09FEF0425BF31C000E22466 = {
+			isa = PBXGroup;
+			children = (
+				C09FEF2D25BF31FB00E22466 /* SwordPortable.entitlements */,
+				C09FEF0925BF31C000E22466 /* Shared */,
+				C09FEF1325BF31C100E22466 /* iOS */,
+				C09FEF1A25BF31C100E22466 /* macOS */,
+				C09FEF1225BF31C100E22466 /* Products */,
+				C0671E3025D06F3C00E04841 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C09FEF0925BF31C000E22466 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C0671E3A25D0821800E04841 /* ViewStructs.swift */,
+				C09FEF0A25BF31C000E22466 /* SwordPortableApp.swift */,
+				C09FEF0B25BF31C000E22466 /* ContentView.swift */,
+				C09FEF0C25BF31C100E22466 /* Assets.xcassets */,
+				C04AB2B325C8CFE000721D6E /* CommandList.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C09FEF1225BF31C100E22466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09FEF1125BF31C100E22466 /* SwordPortable.app */,
+				C09FEF1925BF31C100E22466 /* SwordPortable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09FEF1325BF31C100E22466 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C09FEF1425BF31C100E22466 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		C09FEF1A25BF31C100E22466 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C09FEF1B25BF31C100E22466 /* Info.plist */,
+				C09FEF1C25BF31C100E22466 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09FEF1025BF31C100E22466 /* SwordPortable (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09FEF2525BF31C100E22466 /* Build configuration list for PBXNativeTarget "SwordPortable (iOS)" */;
+			buildPhases = (
+				C09FEF0D25BF31C100E22466 /* Sources */,
+				C09FEF0E25BF31C100E22466 /* Frameworks */,
+				C09FEF0F25BF31C100E22466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwordPortable (iOS)";
+			packageProductDependencies = (
+				C0671E4D25D1C69C00E04841 /* Sword */,
+			);
+			productName = "SwordPortable (iOS)";
+			productReference = C09FEF1125BF31C100E22466 /* SwordPortable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C09FEF1825BF31C100E22466 /* SwordPortable (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09FEF2825BF31C100E22466 /* Build configuration list for PBXNativeTarget "SwordPortable (macOS)" */;
+			buildPhases = (
+				C09FEF1525BF31C100E22466 /* Sources */,
+				C09FEF1625BF31C100E22466 /* Frameworks */,
+				C09FEF1725BF31C100E22466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwordPortable (macOS)";
+			packageProductDependencies = (
+				C0671E5125D1C6A400E04841 /* Sword */,
+			);
+			productName = "SwordPortable (macOS)";
+			productReference = C09FEF1925BF31C100E22466 /* SwordPortable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09FEF0525BF31C000E22466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C09FEF1025BF31C100E22466 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C09FEF1825BF31C100E22466 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C09FEF0825BF31C000E22466 /* Build configuration list for PBXProject "SwordPortable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C09FEF0425BF31C000E22466;
+			packageReferences = (
+				C0671E4C25D1C69C00E04841 /* XCRemoteSwiftPackageReference "Sword" */,
+			);
+			productRefGroup = C09FEF1225BF31C100E22466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09FEF1025BF31C100E22466 /* SwordPortable (iOS) */,
+				C09FEF1825BF31C100E22466 /* SwordPortable (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C09FEF0F25BF31C100E22466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09FEF2125BF31C100E22466 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09FEF1725BF31C100E22466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09FEF2225BF31C100E22466 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C09FEF0D25BF31C100E22466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09FEF1F25BF31C100E22466 /* ContentView.swift in Sources */,
+				C04AB2B425C8CFE000721D6E /* CommandList.swift in Sources */,
+				C09FEF1D25BF31C100E22466 /* SwordPortableApp.swift in Sources */,
+				C0671E3B25D0821800E04841 /* ViewStructs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09FEF1525BF31C100E22466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09FEF2025BF31C100E22466 /* ContentView.swift in Sources */,
+				C04AB2B525C8CFE000721D6E /* CommandList.swift in Sources */,
+				C09FEF1E25BF31C100E22466 /* SwordPortableApp.swift in Sources */,
+				C0671E3C25D0821800E04841 /* ViewStructs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C09FEF2325BF31C100E22466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C09FEF2425BF31C100E22466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C09FEF2625BF31C100E22466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwordPortable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP46UMQG2S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obverser.me.SwordPortable;
+				PRODUCT_NAME = SwordPortable;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		C09FEF2725BF31C100E22466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwordPortable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP46UMQG2S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obverser.me.SwordPortable;
+				PRODUCT_NAME = SwordPortable;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09FEF2925BF31C100E22466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UP46UMQG2S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obverser.me.SwordPortable;
+				PRODUCT_NAME = SwordPortable;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C09FEF2A25BF31C100E22466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UP46UMQG2S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obverser.me.SwordPortable;
+				PRODUCT_NAME = SwordPortable;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09FEF0825BF31C000E22466 /* Build configuration list for PBXProject "SwordPortable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09FEF2325BF31C100E22466 /* Debug */,
+				C09FEF2425BF31C100E22466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09FEF2525BF31C100E22466 /* Build configuration list for PBXNativeTarget "SwordPortable (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09FEF2625BF31C100E22466 /* Debug */,
+				C09FEF2725BF31C100E22466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09FEF2825BF31C100E22466 /* Build configuration list for PBXNativeTarget "SwordPortable (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09FEF2925BF31C100E22466 /* Debug */,
+				C09FEF2A25BF31C100E22466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0671E4C25D1C69C00E04841 /* XCRemoteSwiftPackageReference "Sword" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CenoX/Sword.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0671E4D25D1C69C00E04841 /* Sword */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0671E4C25D1C69C00E04841 /* XCRemoteSwiftPackageReference "Sword" */;
+			productName = Sword;
+		};
+		C0671E5125D1C6A400E04841 /* Sword */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0671E4C25D1C69C00E04841 /* XCRemoteSwiftPackageReference "Sword" */;
+			productName = Sword;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C09FEF0525BF31C000E22466 /* Project object */;
+}
