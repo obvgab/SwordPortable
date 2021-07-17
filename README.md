@@ -1,3 +1,4 @@
+Warning: this repository has been abandoned due to the archival of the Sword library. iDiscordPY (another repository of mine) is going to be a continuation of this project that uses discord.py and PythonKit instead.
 # Sword Portable
 [![Swift Version](https://img.shields.io/badge/Swift-5.3.2-orange.svg?style=flat-square)](https://swift.org)
 [![Xcode Version](https://img.shields.io/badge/Xcode-12.4-blue.svg?style=flat-square)](https://developer.apple.com/xcode/)
